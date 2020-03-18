@@ -20,6 +20,9 @@
   - Storybook
 - 実装志向
   - [Atomic Design](https://qiita.com/yoshimo123/items/302fb3f1698a8db3cf23)
+- 開発環境
+  - docker
+  - docker-compose
 
 ## 実装ルール
 
@@ -43,9 +46,10 @@
   - RailsのViewへのReact Componentの埋め込み
   - client/Components/other/以下のComponentは原則利用しない
 
-## ブランチルール
+## 開発ルール
 
 - masterへの直コミット禁止
 - 必ずPRを作成してマージ
+- 1人以上のLGTMをもらう
 - 作業ブランチ命名規則（暫定・理想はissueに紐付けたい）
   - feature/{your_name}_{work_name}
